@@ -15,6 +15,7 @@ namespace SlutProjekt
             //För att se t.ex. Magikarps attack skriver man "Magikarp.Damage".
             Pokemon Magikarp = new Pokemon("Magikarp", 50, 5, 80, 20);
             Pokemon Ditto = new Pokemon("Ditto", 48, 48, 48, 48);
+            
 
         }
     }
