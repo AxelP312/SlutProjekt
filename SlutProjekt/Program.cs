@@ -13,9 +13,15 @@ namespace SlutProjekt
             //Här anropar jag Pokemon.cs genom att lägga in parametrar i funktionen Pokemon(). 
             //Namn, Hp, Dmg, Spd, def
             //För att se t.ex. Magikarps attack skriver man "Magikarp.Damage".
-            Pokemon Magikarp = new Pokemon("Magikarp", 50, 5, 80, 20);
-            Pokemon Ditto = new Pokemon("Ditto", 48, 48, 48, 48);
-            
+            //lista + List add på varje
+            List<Pokemon> pokemonLista = new List<Pokemon>();
+            pokemonLista.Add(new Pokemon("Bulbasaur", 45, 49, 45, 49));
+            pokemonLista.Add(new Pokemon("Charmander", 39, 52, 42, 65));
+            pokemonLista.Add(new Pokemon("squirtle", 44, 48, 65, 43));
+
+            Console.WriteLine(pokemonLista[0].name);
+            Console.ReadLine();
+
 
         }
     }
